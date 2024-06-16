@@ -1,0 +1,23 @@
+.upcircle{
+    border-bottom: 2px solid black;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+
+.rec{
+    border: 2px solid black;
+    height: 15px;
+    width: 300px;
+    margin: auto;
+}
+.downcircle{
+    border-top: 2px solid black;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    border-radius: 50%;
+    
+}
