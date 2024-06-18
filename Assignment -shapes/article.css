@@ -1,0 +1,28 @@
+.forth{
+    font-family: "Playwrite IS", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2{
+    text-align: center;
+}
+
+.first{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration-line:overline;
+    
+}
+
+.third{
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration-line:underline ;
+  text-shadow: 1px 1px 5px red , 2px 2px 5px green;
+}
