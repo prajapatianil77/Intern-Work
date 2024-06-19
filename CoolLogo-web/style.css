@@ -1,0 +1,181 @@
+.navbar{
+    width: 100%;
+    height: 50px;
+ 
+}
+.nav-content{
+    width: 80%;
+    height: 50px;
+    
+    margin: auto;
+}
+.logo{
+    padding-top: 13px;
+    color: darkred;
+    font-size: large;
+    font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.logo2{
+    opacity: .2;
+}
+.elements{
+    color: red;
+    position: absolute;
+    top: 25px;
+    right: 135px;
+   
+}
+.elements a{
+    text-decoration: none;
+    color: red;
+   
+
+}
+.elements a:hover{
+    opacity: .2;
+}
+.ele{
+    padding-right: 10px;
+}
+
+.nav2{
+    width: 100%;
+    height: 100px;
+ 
+    background-color: red;
+    color: white;
+    
+    padding-left: 125px;
+    padding-top: 1px;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+.body{
+    width: 100%;
+    height: 400px;
+    
+    display: flex;
+}
+.left{
+    width: 30%;
+    height: 400px;
+    
+}
+.heading{
+    color: darkred;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 25px;
+}
+.left a{
+    text-decoration: none;
+    color: red;
+    display: flex;
+    
+}
+.link{
+    
+    margin-top: 10px;
+}
+.links{
+    box-sizing: border-box;
+    padding-left: 150px;
+}
+
+.right{
+    
+    width: 70%;
+    height: 400px;
+    /* border: 1px solid black; */
+   
+}
+.uperbox{
+    width: 200px;
+    height: 20px;
+    border:2px solid gray;
+    margin-top: 20px;
+    padding-left: 5px;
+    
+
+}
+.right p{
+    color: gray;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.right h3{
+    color: darkred;
+}
+.right-left{
+      width: 20%;
+      height: 400px;
+      border: 1px transparent;
+
+}
+.body2{
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid black; */
+    display: block;
+    background-color: #f8dbdb;
+    display: flex;
+    
+    
+}
+.body2 h3{
+    color: darkred;
+    padding-top: 30px;
+}
+.body2 p{
+    color: red;
+}
+.body-o{
+    width: 10%;
+    height: 250px;
+}
+.body-a{
+    width: 35%;
+    height:250px ;
+    /* border: 1px solid black; */
+    padding-right: 50px;
+    box-sizing: border-box;
+    word-spacing: 10px;
+}
+.body-b{
+    width: 30%;
+    height:250px ;
+    /* border: 1px solid black; */
+    word-spacing: 10px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+.body-c{
+    width: 35%;
+    height:250px ;
+    /* border: 1px solid black; */
+    word-spacing: 10px;
+}
+.body-last{
+    width: 10%;
+    height: 250px;
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding-top: 27px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+.left-sp{
+    color: gray;
+}
+.right-sp{
+    color: red;
+}
