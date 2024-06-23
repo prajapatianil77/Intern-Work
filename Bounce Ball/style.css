@@ -1,0 +1,113 @@
+.ball{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 299px;
+    left: 100px;
+    animation-name: bounceball;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+
+
+}
+.rec{
+    width: 50%;
+    height: 20px;
+    border: 1px solid;
+    background-color: black;
+    position: absolute;
+    top: 350px;
+    left: 40px;
+}
+@keyframes bounceball {
+    0% {
+       left: 100px;
+       top: 299px;
+    }
+   5%{
+    left: 120px;
+    top: 275px;
+   }
+   10%{
+    left: 140px;
+    top: 255px;
+   }
+   15%{
+    left: 160px;
+    top: 235px;
+   }
+    20%{
+        left: 180px;
+    top: 215px;
+    }
+    25%{
+        left: 200px;
+    top: 195px;
+    }
+    30%{
+        left: 220px;
+    top: 175px;
+    }
+    35%{
+        left: 240px;
+    top: 155px;
+    }
+    40%{
+        left: 260px;
+    top: 135px;
+    }
+    45%{
+        left: 280px;
+    top: 115px;
+    }
+    50%{
+        left: 300px;
+    top: 95px;
+    }
+    55%{
+        left: 320px;
+    top: 115px;
+    }
+    60%{
+        left: 340px;
+    top: 135px;
+    }
+    65%{
+        left: 360px;
+    top: 155px;
+    }
+    70%{
+        left: 380px;
+    top: 175px;
+    }
+    75%{
+        left: 400px;
+    top: 195px;
+    }
+    80%{
+        left: 420px;
+    top: 215px;
+    }
+    85%{
+        left: 440px;
+    top: 235px;
+    }
+    90%{
+        left: 460px;
+    top: 255px;
+    }
+    95%{
+        left: 480px;
+    top: 275px;
+    }
+    100%{
+        left: 500px;
+    top: 299px;
+    }
+
+    }
+
