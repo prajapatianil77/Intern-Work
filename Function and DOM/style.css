@@ -1,7 +1,44 @@
-.boxes{
+/* Q. Three button .... */
+/*
+ .boxes{
     display: flex;
    
 }
 .box{
     margin: auto;
+} */
+
+
+
+/* Q. Circle display.... */
+/* .box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: red;
+    margin: auto;
+    
 }
+button{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    color: white;
+    margin-left: 100px;
+}
+button:hover{
+    cursor: pointer;
+    color: rgb(232, 13, 123);
+    border: 2px solid ;
+}
+.hide{
+    display: none;
+} */
+
+
+/* Q. display parain console... */
+/* p{
+    display: none;
+} */
