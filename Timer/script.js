@@ -5,14 +5,22 @@ let box = document.querySelector(".box")
 
 let sec = 0;
 let min = 0;
+
 let interval=0;
 startbtn.addEventListener('click',function(){
     if(!interval){
    interval=setInterval(()=>{
             sec++
             if(sec==60){
-                sec=0;min++
+                sec=0;
+                min++
+              
             }
+             if(min==60){
+                min=0;
+            
+            }
+           
             box.innerHTML =  `<h1>${min} : ${sec}</h1>`
         },1000);
     }
@@ -22,8 +30,9 @@ stopbtn.addEventListener('click',()=>{
     interval=0
 })
 resetbtn.addEventListener('click',()=>{
+    
     min=0;
     sec=0;
-    box.innerHTML = `<h1>${min} : ${sec}</h1>`
+    box.innerHTML =  `<h1>${min} : ${sec}</h1>`
     
 })
