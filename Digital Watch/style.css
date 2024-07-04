@@ -1,0 +1,16 @@
+
+.box{
+    width: 200px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(65, 62, 62);
+    color: white;
+}
+.box h1{
+    padding-left: 35px;
+    box-sizing: border-box;
+}
